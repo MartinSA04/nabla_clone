@@ -1,0 +1,80 @@
+a {
+    color: white;
+    
+}
+
+
+.topnav {
+    background-color: #003F88;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: rgb(197, 197, 197);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    color: rgb(197, 197, 197);
+}
+
+.bottomnav {
+    background-color: #003F88;
+    overflow: hidden;
+
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    color: white;
+    margin-top: 100px;
+}
+
+.bottomsub {
+    overflow: hidden;
+    width: 20%;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.bottomsub p {
+    margin: 0;
+}
+
+.icon {
+    height: 40px;
+    transition-duration: 100ms;
+}
+.icon:hover {
+    transform: scale(1.2);
+}
+
+
+.iconcont {
+    color: rgba(255, 255, 255, 0);
+}
+
+.button {
+    width: 80%;
+    height: 40px;
+    background-color: #00296B;
+    margin: 10px;
+    border-radius: 5px;
+    align-content: center;
+    transition-duration: 200ms;
+}
+
+.button:hover {
+    background-color: rgb(0, 0, 0);
+}
